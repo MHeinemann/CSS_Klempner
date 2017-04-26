@@ -11,34 +11,82 @@ div{
   clip-path: inset(0 30% 0 30%);
 }
 
+.horizontal{
+  -webkit-clip-path: inset(30% 0 30% 0);
+  clip-path: inset(30% 0 30% 0);
+}
+
+
 .obenRechts{
   -webkit-clip-path: polygon(70% 0%, 30% 0, 30% 70%, 100% 70%, 100% 30%, 70% 30%);
   clip-path: polygon(70% 0%, 30% 0, 30% 70%, 100% 70%, 100% 30%, 70% 30%);
 }
 
+.obenLinks{
+  -webkit-clip-path: polygon(70% 0%, 30% 0, 30% 70%, 100% 70%, 100% 30%, 70% 30%);
+  clip-path: polygon(70% 0%, 30% 0, 30% 70%, 100% 70%, 100% 30%, 70% 30%);
+
+  transform: rotate(270deg);
+}
+
+.untenRechts{
+  -webkit-clip-path: polygon(70% 0%, 30% 0, 30% 70%, 100% 70%, 100% 30%, 70% 30%);
+  clip-path: polygon(70% 0%, 30% 0, 30% 70%, 100% 70%, 100% 30%, 70% 30%);
+
+  transform: rotate(90deg);
+}
+
+.untenLinks{
+  -webkit-clip-path: polygon(70% 0%, 30% 0, 30% 70%, 100% 70%, 100% 30%, 70% 30%);
+  clip-path: polygon(70% 0%, 30% 0, 30% 70%, 100% 70%, 100% 30%, 70% 30%);
+
+  transform: rotate(180deg);
+}
+
 /*   Farben   */
 
 .rot{
-  /* TODO */
+  background-color: red;
 }
 
 .blau{
   background-color: blue;
 }
 
-/*   Drehung   */
 
-.dreh90{
-    transform: rotate(90deg);
-}
 
-.dreh180{
-  /* TODO */
-}
 
-.dreh270{
-  /* TODO */
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Fixierte Elemente */
 
