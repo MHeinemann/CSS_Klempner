@@ -13,6 +13,16 @@ Außerdem gibt es eine vorgefertigte **Musterloesung**.
 Die einzelnen Rohrelemente werden mithilfe von Klassen in den jeweiligen *div-Tags* erstellt.  
 Bsp.: ```<div class="untenLinks blau">5</div>```
 
+Dabei steht bspw. *untenLinks* für den Verlauf des Rohres.
+
+Andere Ausrichtungsarten sind:  
+* vertikal:  ||
+* horizontal: =
+* obenRechts: *(von Oben nach Rechts)*
+* obenLinks: *(von Oben nach Links)*
+* untenRechts :*(von Unten nach Rechts)*
+* untenLinks: *(von Unten nach Links)*
+
 ### Wichtiger Hinweis
 Dieses Spiel wird zum jetzigen Zeitpunkt *(26.04.2017)* nicht von
 *'Firefox'* oder dem *'Internet Explorer'* unterstützt.
